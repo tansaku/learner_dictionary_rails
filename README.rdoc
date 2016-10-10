@@ -3,7 +3,6 @@
 Transcript of how we created this
 
 ```
-
 [tansaku@Samuels-MBP:~/Documents/GitHub/tansaku/learner_dictionary (master)]$ 
 → cd ..
 [tansaku@Samuels-MBP:~/Documents/GitHub/tansaku ]$ 
