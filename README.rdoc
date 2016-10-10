@@ -2,7 +2,8 @@
 
 Transcript of how we created this
 
-```
+```sh
+
 [tansaku@Samuels-MBP:~/Documents/GitHub/tansaku/learner_dictionary (master)]$ 
 → cd ..
 [tansaku@Samuels-MBP:~/Documents/GitHub/tansaku ]$ 
@@ -208,7 +209,7 @@ Using rails 4.2.7
 Using sass-rails 5.0.6
 Using web-console 2.3.0
 Bundle complete! 13 Gemfile dependencies, 62 gems now installed.
-Use `bundle show [gemname]` to see where a bundled gem is installed.
+Use 'bundle show [gemname]' to see where a bundled gem is installed.
 [tansaku@Samuels-MBP:~/Documents/GitHub/tansaku/learner_dictionary_rails ]$ 
 → rails g rspec:install
 Running via Spring preloader in process 23892
@@ -226,20 +227,20 @@ Finished in 0.00033 seconds (files took 0.09209 seconds to load)
 
 [tansaku@Samuels-MBP:~/Documents/GitHub/tansaku/learner_dictionary_rails ]$ 
 → rspec
-/Users/tansaku/Documents/GitHub/tansaku/learner_dictionary_rails/spec/controllers/learner_dictionary_controller_spec.rb:1:in `<top (required)>': uninitialized constant LearnerDictionaryController (NameError)
-	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/lib/rspec/core/configuration.rb:1435:in `load'
-	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/lib/rspec/core/configuration.rb:1435:in `block in load_spec_files'
-	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/lib/rspec/core/configuration.rb:1433:in `each'
-	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/lib/rspec/core/configuration.rb:1433:in `load_spec_files'
-	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/lib/rspec/core/runner.rb:100:in `setup'
-	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/lib/rspec/core/runner.rb:86:in `run'
-	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/lib/rspec/core/runner.rb:71:in `run'
-	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/lib/rspec/core/runner.rb:45:in `invoke'
-	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/exe/rspec:4:in `<top (required)>'
-	from /Users/tansaku/.rvm/gems/ruby-2.3.1/bin/rspec:23:in `load'
-	from /Users/tansaku/.rvm/gems/ruby-2.3.1/bin/rspec:23:in `<main>'
-	from /Users/tansaku/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `eval'
-	from /Users/tansaku/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `<main>'
+/Users/tansaku/Documents/GitHub/tansaku/learner_dictionary_rails/spec/controllers/learner_dictionary_controller_spec.rb:1:in '<top (required)>': uninitialized constant LearnerDictionaryController (NameError)
+	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/lib/rspec/core/configuration.rb:1435:in 'load'
+	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/lib/rspec/core/configuration.rb:1435:in 'block in load_spec_files'
+	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/lib/rspec/core/configuration.rb:1433:in 'each'
+	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/lib/rspec/core/configuration.rb:1433:in 'load_spec_files'
+	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/lib/rspec/core/runner.rb:100:in 'setup'
+	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/lib/rspec/core/runner.rb:86:in 'run'
+	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/lib/rspec/core/runner.rb:71:in 'run'
+	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/lib/rspec/core/runner.rb:45:in 'invoke'
+	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/exe/rspec:4:in '<top (required)>'
+	from /Users/tansaku/.rvm/gems/ruby-2.3.1/bin/rspec:23:in 'load'
+	from /Users/tansaku/.rvm/gems/ruby-2.3.1/bin/rspec:23:in '<main>'
+	from /Users/tansaku/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in 'eval'
+	from /Users/tansaku/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in '<main>'
 [tansaku@Samuels-MBP:~/Documents/GitHub/tansaku/learner_dictionary_rails ]$ 
 → bin/rails generate
 Running via Spring preloader in process 23928
@@ -303,24 +304,24 @@ TestUnit:
 
 [tansaku@Samuels-MBP:~/Documents/GitHub/tansaku/learner_dictionary_rails ]$ 
 → rspec
-/Users/tansaku/Documents/GitHub/tansaku/learner_dictionary_rails/spec/controllers/learner_dictionary_controller_spec.rb:1:in `<top (required)>': uninitialized constant LearnerDictionaryController (NameError)
-	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/lib/rspec/core/configuration.rb:1435:in `load'
-	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/lib/rspec/core/configuration.rb:1435:in `block in load_spec_files'
-	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/lib/rspec/core/configuration.rb:1433:in `each'
-	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/lib/rspec/core/configuration.rb:1433:in `load_spec_files'
-	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/lib/rspec/core/runner.rb:100:in `setup'
-	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/lib/rspec/core/runner.rb:86:in `run'
-	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/lib/rspec/core/runner.rb:71:in `run'
-	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/lib/rspec/core/runner.rb:45:in `invoke'
-	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/exe/rspec:4:in `<top (required)>'
-	from /Users/tansaku/.rvm/gems/ruby-2.3.1/bin/rspec:23:in `load'
-	from /Users/tansaku/.rvm/gems/ruby-2.3.1/bin/rspec:23:in `<main>'
-	from /Users/tansaku/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `eval'
-	from /Users/tansaku/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `<main>'
+/Users/tansaku/Documents/GitHub/tansaku/learner_dictionary_rails/spec/controllers/learner_dictionary_controller_spec.rb:1:in '<top (required)>': uninitialized constant LearnerDictionaryController (NameError)
+	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/lib/rspec/core/configuration.rb:1435:in 'load'
+	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/lib/rspec/core/configuration.rb:1435:in 'block in load_spec_files'
+	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/lib/rspec/core/configuration.rb:1433:in 'each'
+	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/lib/rspec/core/configuration.rb:1433:in 'load_spec_files'
+	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/lib/rspec/core/runner.rb:100:in 'setup'
+	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/lib/rspec/core/runner.rb:86:in 'run'
+	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/lib/rspec/core/runner.rb:71:in 'run'
+	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/lib/rspec/core/runner.rb:45:in 'invoke'
+	from /Users/tansaku/.rvm/gems/ruby-2.3.1/gems/rspec-core-3.5.4/exe/rspec:4:in '<top (required)>'
+	from /Users/tansaku/.rvm/gems/ruby-2.3.1/bin/rspec:23:in 'load'
+	from /Users/tansaku/.rvm/gems/ruby-2.3.1/bin/rspec:23:in '<main>'
+	from /Users/tansaku/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in 'eval'
+	from /Users/tansaku/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in '<main>'
 [tansaku@Samuels-MBP:~/Documents/GitHub/tansaku/learner_dictionary_rails ]$ 
 → rspec
 Running via Spring preloader in process 23945
-/Users/tansaku/Documents/GitHub/tansaku/learner_dictionary_rails/db/schema.rb doesn't exist yet. Run `rake db:migrate` to create it, then try again. If you do not intend to use a database, you should instead alter /Users/tansaku/Documents/GitHub/tansaku/learner_dictionary_rails/config/application.rb to limit the frameworks that will be loaded.
+/Users/tansaku/Documents/GitHub/tansaku/learner_dictionary_rails/db/schema.rb doesn't exist yet. Run 'rake db:migrate' to create it, then try again. If you do not intend to use a database, you should instead alter /Users/tansaku/Documents/GitHub/tansaku/learner_dictionary_rails/config/application.rb to limit the frameworks that will be loaded.
 No examples found.
 
 
@@ -330,7 +331,7 @@ Finished in 0.00038 seconds (files took 3.7 seconds to load)
 [tansaku@Samuels-MBP:~/Documents/GitHub/tansaku/learner_dictionary_rails ]$ 
 → rspec
 Running via Spring preloader in process 23958
-/Users/tansaku/Documents/GitHub/tansaku/learner_dictionary_rails/db/schema.rb doesn't exist yet. Run `rake db:migrate` to create it, then try again. If you do not intend to use a database, you should instead alter /Users/tansaku/Documents/GitHub/tansaku/learner_dictionary_rails/config/application.rb to limit the frameworks that will be loaded.
+/Users/tansaku/Documents/GitHub/tansaku/learner_dictionary_rails/db/schema.rb doesn't exist yet. Run 'rake db:migrate' to create it, then try again. If you do not intend to use a database, you should instead alter /Users/tansaku/Documents/GitHub/tansaku/learner_dictionary_rails/config/application.rb to limit the frameworks that will be loaded.
 F
 
 Failures:
@@ -340,7 +341,7 @@ Failures:
      
      ActionController::UrlGenerationError:
        No route matches {:action=>"index", :controller=>"learner_dictionary"}
-     # ./spec/controllers/learner_dictionary_controller_spec.rb:6:in `block (3 levels) in <top (required)>'
+     # ./spec/controllers/learner_dictionary_controller_spec.rb:6:in 'block (3 levels) in <top (required)>'
 
 Finished in 0.00703 seconds (files took 1.85 seconds to load)
 1 example, 1 failure
@@ -356,7 +357,7 @@ learner_dictionary GET  /learner_dictionary(.:format) learner_dictionary#index
 [tansaku@Samuels-MBP:~/Documents/GitHub/tansaku/learner_dictionary_rails ]$ 
 → rspec
 Running via Spring preloader in process 23979
-/Users/tansaku/Documents/GitHub/tansaku/learner_dictionary_rails/db/schema.rb doesn't exist yet. Run `rake db:migrate` to create it, then try again. If you do not intend to use a database, you should instead alter /Users/tansaku/Documents/GitHub/tansaku/learner_dictionary_rails/config/application.rb to limit the frameworks that will be loaded.
+/Users/tansaku/Documents/GitHub/tansaku/learner_dictionary_rails/db/schema.rb doesn't exist yet. Run 'rake db:migrate' to create it, then try again. If you do not intend to use a database, you should instead alter /Users/tansaku/Documents/GitHub/tansaku/learner_dictionary_rails/config/application.rb to limit the frameworks that will be loaded.
 F
 
 Failures:
@@ -389,7 +390,7 @@ Failures:
      ActionView::MissingTemplate:
        Missing template learner_dictionary/index, application/index with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
          * "/Users/tansaku/Documents/GitHub/tansaku/learner_dictionary_rails/app/views"
-     # ./spec/controllers/learner_dictionary_controller_spec.rb:6:in `block (3 levels) in <top (required)>'
+     # ./spec/controllers/learner_dictionary_controller_spec.rb:6:in 'block (3 levels) in <top (required)>'
 
 Finished in 0.01775 seconds (files took 1.95 seconds to load)
 1 example, 1 failure
@@ -401,7 +402,7 @@ rspec ./spec/controllers/learner_dictionary_controller_spec.rb:5 # LearnerDictio
 [tansaku@Samuels-MBP:~/Documents/GitHub/tansaku/learner_dictionary_rails ]$ 
 → rspec
 Running via Spring preloader in process 23995
-/Users/tansaku/Documents/GitHub/tansaku/learner_dictionary_rails/db/schema.rb doesn't exist yet. Run `rake db:migrate` to create it, then try again. If you do not intend to use a database, you should instead alter /Users/tansaku/Documents/GitHub/tansaku/learner_dictionary_rails/config/application.rb to limit the frameworks that will be loaded.
+/Users/tansaku/Documents/GitHub/tansaku/learner_dictionary_rails/db/schema.rb doesn't exist yet. Run 'rake db:migrate' to create it, then try again. If you do not intend to use a database, you should instead alter /Users/tansaku/Documents/GitHub/tansaku/learner_dictionary_rails/config/application.rb to limit the frameworks that will be loaded.
 .
 
 Finished in 0.02171 seconds (files took 1.91 seconds to load)
