@@ -2,8 +2,7 @@
 
 Transcript of how we created this
 
-<code></pre>
-
+```
 [tansaku@Samuels-MBP:~/Documents/GitHub/tansaku/learner_dictionary (master)]$ 
 → cd ..
 [tansaku@Samuels-MBP:~/Documents/GitHub/tansaku ]$ 
@@ -409,4 +408,4 @@ Finished in 0.02171 seconds (files took 1.91 seconds to load)
 1 example, 0 failures
 
 [tansaku@Samuels-MBP:~/Documents/GitHub/tansaku/learner_dictionary_rails ]$ 
-</pre></code>
+```
