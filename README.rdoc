@@ -366,7 +366,7 @@ Failures:
      
      AbstractController::ActionNotFound:
        The action 'index' could not be found for LearnerDictionaryController
-     # ./spec/controllers/learner_dictionary_controller_spec.rb:6:in `block (3 levels) in <top (required)>'
+     # ./spec/controllers/learner_dictionary_controller_spec.rb:6:in 'block (3 levels) in <top (required)>'
 
 Finished in 0.04519 seconds (files took 1.94 seconds to load)
 1 example, 1 failure
@@ -378,7 +378,7 @@ rspec ./spec/controllers/learner_dictionary_controller_spec.rb:5 # LearnerDictio
 [tansaku@Samuels-MBP:~/Documents/GitHub/tansaku/learner_dictionary_rails ]$ 
 → rspec
 Running via Spring preloader in process 23987
-/Users/tansaku/Documents/GitHub/tansaku/learner_dictionary_rails/db/schema.rb doesn't exist yet. Run `rake db:migrate` to create it, then try again. If you do not intend to use a database, you should instead alter /Users/tansaku/Documents/GitHub/tansaku/learner_dictionary_rails/config/application.rb to limit the frameworks that will be loaded.
+/Users/tansaku/Documents/GitHub/tansaku/learner_dictionary_rails/db/schema.rb doesn't exist yet. Run 'rake db:migrate' to create it, then try again. If you do not intend to use a database, you should instead alter /Users/tansaku/Documents/GitHub/tansaku/learner_dictionary_rails/config/application.rb to limit the frameworks that will be loaded.
 F
 
 Failures:
