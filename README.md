@@ -1,6 +1,6 @@
 # Learner Dictionary Rails
 
-Transcript of how we created this
+Transcript of how we created this (from session one)
 
 ```
 [tansaku@Samuels-MBP:~/Documents/GitHub/tansaku/learner_dictionary (master)]$ 
